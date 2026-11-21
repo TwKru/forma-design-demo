@@ -54,7 +54,7 @@
   const sessions = [...document.querySelectorAll('.session')];
   const filterButtons = [...document.querySelectorAll('[data-filter]')];
   const savedButton = document.querySelector('.saved-toggle');
-  const storageKey = 'novus-demo-session-selection-v1';
+  const storageKey = 'forma-demo-session-selection-v1';
   const knownIds = sessions.map(s => s.dataset.id);
   let selected = new Set();
   try { const raw = JSON.parse(localStorage.getItem(storageKey) || '[]'); if (Array.isArray(raw)) selected = new Set(raw.filter(id => knownIds.includes(id))); } catch {}
