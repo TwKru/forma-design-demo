@@ -14,3 +14,6 @@
 @media(max-width:600px){.header-register{display:none}.menu-toggle{margin-left:auto}.hero h1{font-size:7.4vw}.hero-actions{align-items:center}.hero-actions .button{font-size:14px;gap:20px}.hero-actions .text-link{font-size:14px;max-width:140px}.hero-meta{font-size:11px}.session-tag{font-size:10px}.session-time{font-size:14px}.session{grid-template-columns:52px 1fr 32px;gap:10px}.program-controls{gap:18px}.art-label{font-size:10px}.art-card-top{font-size:12px}.canvas-hint{font-size:11px}.ticket-bottom{font-size:10px}.join-meta{font-size:11px}.site-footer p{font-size:12px}}
 .hero .outlined{font-weight:300;letter-spacing:-.025em;-webkit-text-stroke:.8px var(--paper)}
 .hero-art img{position:absolute;inset:-8% -15%;width:130%;height:116%;object-fit:contain}
+/* Outline the rendered glyph silhouette so variable-font overlaps stay invisible. */
+.outlined,.hero .outlined{color:var(--black);-webkit-text-stroke:0;text-shadow:1px 0 var(--paper),-1px 0 var(--paper),0 1px var(--paper),0 -1px var(--paper),.7px .7px var(--paper),-.7px -.7px var(--paper),-.7px .7px var(--paper),.7px -.7px var(--paper)}
+.join h2>span{color:var(--orange);-webkit-text-stroke:0;text-shadow:1px 0 var(--black),-1px 0 var(--black),0 1px var(--black),0 -1px var(--black),.7px .7px var(--black),-.7px -.7px var(--black),-.7px .7px var(--black),.7px -.7px var(--black)}
