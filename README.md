@@ -1,6 +1,6 @@
 # FORMA creative demo
 
-A fictional creative event used to demonstrate expressive website design and browser interactions. Author: Timofey. FORMA does not represent a real event or customer. All sessions, times, copy and registration are illustrative. No venue, event date, ticket price, real speakers, payments or reservations are provided.
+A fictional creative event used to demonstrate expressive website design and browser interactions. Author: TwK. FORMA does not represent a real event or customer. All sessions, times, copy and registration are illustrative. No venue, event date, ticket price, real speakers, payments or reservations are provided.
 
 ## Experience
 
